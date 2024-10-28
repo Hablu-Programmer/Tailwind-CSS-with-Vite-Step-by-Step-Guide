@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "vite": "^5.3.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  }
+}
