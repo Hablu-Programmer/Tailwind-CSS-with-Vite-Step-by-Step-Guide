@@ -38,6 +38,7 @@ If you want to start a project using only **HTML**, **Tailwind CSS**, and **Vite
 1. **Configure template paths:**
    Open the `tailwind.config.js` file and modify the `content` property to include your HTML files:
    ```js
+   /** @type {import('tailwindcss').Config} */
    module.exports = {
      content: [ "*" ],
      theme: {
